@@ -37,7 +37,10 @@ a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+
 /*End of General Styling*/
+
+
 
 /*mobile styling*/
 
@@ -69,6 +72,7 @@ body{
 }
 
 .content-btn{
+    display: block;
     background-color: white;
     height:45px;
     width:250px;
@@ -77,24 +81,40 @@ body{
     text-align: center;
     padding-top: 10px;
     filter: drop-shadow(0 1px 3px #000);
-}
-
-.content-btn-link{
     color:var(--violet);
 }
 
+
+.content-btn:hover{
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
 .socials{
-    width:30vw;
+    width:40vw;
     margin:70px auto 40px;
     display:flex;
     justify-content: space-around;
-    color:white;
+  
 }
 
 .icon{
     border: 1px solid white;
+    color:white;
+    height:35px;
+    width:35px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top:8px;
 }
 
+.icon:hover{
+    border: 1px solid var(--soft-magenta);
+    color: var(--soft-magenta);
+}
+
+
+}
 
 
 
