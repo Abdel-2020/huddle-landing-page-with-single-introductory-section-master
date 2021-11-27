@@ -18,17 +18,11 @@
 h1 {
     font-family: 'Poppins', sans-serif;
     color: white;
-    text-align: center;
-    margin: 10px;
-    line-height: 2.5rem;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: white;
-    text-align: center;
-    line-height: 1.7rem;
-
 }
 
 body {
@@ -42,23 +36,21 @@ a {
 
 /*End of General Styling*/
 
+/*Destkop Styling*/
 
-
-/*mobile styling*/
 
 @media (max-width:425px) {
 
     body {
         background-image: url("images/bg-mobile.svg");
-        background-repeat: no-repeat;
+        background-repeat: no-repeat;     
+        background-size: 425px auto;   
     }
 
     .main-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80vw;
-        height: auto;
         margin: 0 auto;
     }
 
@@ -72,6 +64,21 @@ a {
         height: 215px;
         width: auto;
         margin-bottom: 50px;
+    }
+
+    .content-title{
+        font-size:1.8rem;
+        text-align: center;
+        line-height: 2.5rem;
+        margin: 10px;
+        padding:10px; 
+    }
+    
+    .content-text{
+        text-align: center;
+        line-height: 1.7rem;
+        width:400px;
+        margin: 0 auto;
     }
 
     .content-btn {
@@ -120,3 +127,12 @@ a {
 }
 
 /*End of Mobile Styling*/
+
+/*Destkop Styling*/
+
+/*End of Destkop Styling*/
+
+
+
+
+
