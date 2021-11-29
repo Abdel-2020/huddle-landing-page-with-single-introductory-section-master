@@ -36,8 +36,7 @@ a {
 
 /*End of General Styling*/
 
-/*Destkop Styling*/
-
+/* Mobile Styling*/
 
 @media (max-width:425px) {
 
@@ -51,7 +50,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 auto;
+    
     }
 
     .logo {
@@ -129,6 +128,13 @@ a {
 /*End of Mobile Styling*/
 
 /*Destkop Styling*/
+
+    body {
+        background-image: url("/images/bg-desktop.svg");
+        background-size: 100vw auto;   
+    }
+
+
 
 /*End of Destkop Styling*/
 
