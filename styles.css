@@ -23,6 +23,7 @@ h1 {
 p {
     font-family: 'Open Sans', sans-serif;
     color: white;
+    font-size: 14px;
 }
 
 body {
@@ -38,7 +39,7 @@ a {
 
 /* Mobile Styling*/
 
-@media (max-width:425px) {
+@media screen and (max-width:425px) {
 
     body {
         background-image: url("images/bg-mobile.svg");
@@ -50,7 +51,8 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+        margin: 0 auto;
+        padding:10px
     }
 
     .logo {
@@ -69,15 +71,16 @@ a {
         font-size:1.8rem;
         text-align: center;
         line-height: 2.5rem;
-        margin: 10px;
-        padding:10px; 
+        padding: 10px;
+        margin-bottom: 10px;
     }
     
     .content-text{
         text-align: center;
-        line-height: 1.7rem;
-        width:400px;
+        line-height: 1.5rem;
         margin: 0 auto;
+        width:295px;
+        padding: 0 5px;
     }
 
     .content-btn {
@@ -121,19 +124,98 @@ a {
         border: 1px solid var(--soft-magenta);
         color: var(--soft-magenta);
     }
-
-
 }
 
 /*End of Mobile Styling*/
 
 /*Destkop Styling*/
 
+@media screen and (min-width:1440px) {
+
+
     body {
-        background-image: url("/images/bg-desktop.svg");
-        background-size: 100vw auto;   
+        background-image: url("images/bg-desktop.svg");
+        background-repeat: no-repeat;     
+        background-size:  100vw auto;
+        
+    }
+    
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10vh auto;
+        padding:10px;
     }
 
+    .logo {
+        margin: 40px 40px 0;
+    }
+
+    .hero-img {
+        height: 570px;
+        width: auto;
+    }
+
+    .content-section{
+        width:500px;
+    }
+    .content-title{
+        font-size: 2rem;
+        padding:10px;
+        width: 400px;
+    }
+
+
+    .content-text{
+        line-height: 1.5rem;
+        padding: 10px;
+        width:450px;
+    }
+
+    .content-btn {
+        display: block;
+        background-color: white;
+        height: 45px;
+        width: 200px;
+        border-radius: 25px;
+        text-align: center;
+        padding-top: 10px;
+        filter: drop-shadow(0 1px 3px #000);
+        color: var(--violet);
+        margin:15px 0;
+    }
+
+    .content-btn:hover {
+        background-color: var(--soft-magenta);
+        color: white;
+    }
+
+    .socials{
+        position:absolute;
+        bottom: -50px;
+        right: 50px;
+    }
+
+    .icon {
+        border: 1px solid white;
+        color: white;
+        height: 35px;
+        width: 35px;
+        border-radius: 25px;
+        text-align: center;
+        padding-top: 8px;
+        margin:0 5px;
+       
+    }
+
+    .icon:hover {
+        border: 1px solid var(--soft-magenta);
+        color: var(--soft-magenta);
+    }
+
+}
 
 
 /*End of Destkop Styling*/
