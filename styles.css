@@ -171,14 +171,14 @@ a {
     .content-text{
         line-height: 1.5rem;
         padding: 10px;
-        width:450px;
+        width:425px;
     }
 
     .content-btn {
         display: block;
         background-color: white;
         height: 45px;
-        width: 200px;
+        width: 180px;
         border-radius: 25px;
         text-align: center;
         padding-top: 10px;
