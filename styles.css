@@ -144,9 +144,9 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 12vh auto;
+        margin: 9vh auto;
         padding:10px;
-        width:80vw;
+      
     }
 
     .logo {
@@ -154,12 +154,11 @@ a {
     }
 
     .hero-img {
-        height: 500px;
+        height: 515px;
         width: auto;
     }
 
     .content-section{
-        width: 600px;
         padding-top: 20px;
     }
 
@@ -174,8 +173,9 @@ a {
     .content-text{
         line-height: 1.5rem;
         padding: 10px;
-        width:425px;
+        width:480px;
         margin-bottom: 30px;
+        font-size: 16px;
     }
 
     .content-btn {
@@ -198,8 +198,8 @@ a {
 
     .socials{
         position: absolute;
-        bottom:60px;
-        right:400px;
+        bottom:50px;
+        right:110px;
     }
 
     .icon {
