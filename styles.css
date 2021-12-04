@@ -144,7 +144,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 9vh auto;
+        margin: 9vh auto 0;
         padding:10px;
       
     }
